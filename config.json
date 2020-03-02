@@ -1,0 +1,115 @@
+{
+	"discordprefix": "!",
+	"telegramprefix":"/",
+	"logconsoleverbosity":3,
+	"logtelegramverbosity":2,
+	"logtelegramsendto":"412488275",
+	"roleIDs": {
+		"freund": "641059983743647756",
+		"admin":"641017067121672193"
+	},
+	"databasename": "database.json",
+	"commandlist": [
+		{
+			"functionnamespace": "functions_discord",
+			"functionname": "activateTelegramConnection",
+			"aliases": [
+				"pw",
+				"activate"
+			]
+		},
+		{
+			"functionnamespace": "functions",
+			"functionname": "dog",
+			"aliases": [
+				"dog",
+				"schmuserwuffer",
+				"bellkadse",
+				"doggo",
+				"hund",
+				"🐕"
+			]
+		},
+		{
+			"functionnamespace": "functions",
+			"functionname": "cat",
+			"aliases": [
+				"cat",
+				"schmuserkadser",
+				"kadser",
+				"kadse",
+				"katze",
+				"🐈"
+			]
+		},
+		{
+			"functionnamespace": "functions",
+			"functionname": "stefan",
+			"aliases": [
+				"stefan"
+			]
+		},
+		{
+			"functionnamespace": "functions",
+			"functionname": "help",
+			"aliases": [
+				"help",
+				"hilfe"
+			]
+		},
+		{
+			"functionnamespace": "functions",
+			"functionname": "pr0",
+			"aliases": [
+				"pr0",
+				"pro"
+			]
+		},
+		{
+			"functionnamespace": "functions",
+			"functionname": "summon",
+			"aliases": [
+				"summon"
+			]
+		},
+		{
+			"functionnamespace": "functions_funfact",
+			"functionname": "funfactAdd",
+			"aliases": [
+				"addfunfact"
+			]
+		},
+		{
+			"functionnamespace": "functions_funfact",
+			"functionname": "funfactShow",
+			"aliases": [
+				"funfact",
+				"showfunfact"
+			]
+		},
+		{
+			"functionnamespace": "functions_funfact",
+			"functionname": "funfactDel",
+			"aliases": [
+				"delfunfact"
+			]
+		},
+		{
+			"functionnamespace": "functions",
+			"functionname": "addAlias",
+			"aliases": [
+				"addalias"
+			]
+		},
+		{
+			"functionnamespace": "functions",
+			"functionname": "showAlias",
+			"aliases": [
+				"showalias"
+			]
+		}
+		
+	],
+	"telegramstartmessage":"Du musst deinen Account noch verifizieren. Schreibe auf unseren den Bot bei Discord an und übermittel ihm das Passwort (/pw XXXX).\nDein Passwort:",
+	"telegramwelcomemessage":"Discord Account erfolgreich verknüpft.\n Standardmäßig werden dir nur Nachrichten geschickt, in denen du markiert wurdest.\nDu kannst einen eigenen Filter mit /filter festlegen."
+}
