@@ -186,8 +186,12 @@ function steamlink(message) {
 			message.channel.send(messageString);
 		}
 		else {
+			//The link contains no number
+			//var messageString=user+", du Hure!!!"
 
-			message.reply("Der Link ist irgendwie falsch");
+			//message.channel.send(messageString);
+
+			message.reply("Du Hure!!!")
 		}
 	}
 }
@@ -438,6 +442,16 @@ function showAlias(message){
 	}
 }
 
+function ttt_mute_deactivate(message){
+	config.ttt_mute.active=false;
+	message.reply("TTT-Mute-Funktion ist jetzt aus");
+}
+
+function ttt_mute_activate(message){
+	config.ttt_mute.active=true;
+	message.reply("TTT-Mute-Funktion ist jetzt an");
+}
+
 module.exports =
 {
 	setBot,
@@ -450,6 +464,8 @@ module.exports =
 	pr0,
 	pr0ReverseSearch,
 	addAlias,
-	showAlias
+	showAlias,
+	ttt_mute_deactivate,
+	ttt_mute_activate
 };
 

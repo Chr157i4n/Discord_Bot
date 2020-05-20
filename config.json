@@ -1,4 +1,15 @@
 {
+	"discord": {
+		"guild": "200724115131203584",
+		"channel": "200724115131203585"
+	  },
+	  "ttt_mute": {
+		"port": "37405",
+		"active":true
+	  },
+
+
+
 	"discordprefix": "!",
 	"telegramprefix":"/",
 	"logconsoleverbosity":3,
@@ -106,6 +117,38 @@
 			"functionname": "showAlias",
 			"aliases": [
 				"showalias"
+			]
+		}
+		,
+		{
+			"functionnamespace": "functions",
+			"functionname": "steamlink",
+			"aliases": [
+				"steamlink"
+			]
+		}
+		,
+		{
+			"functionnamespace": "functions",
+			"functionname": "ttt_mute_deactivate",
+			"aliases": [
+				"tttaus",
+				"ttt-aus",
+				"tttmuteaus",
+				"ttt-mute-aus",
+				"tttoff"
+			]
+		}
+		,
+		{
+			"functionnamespace": "functions",
+			"functionname": "ttt_mute_activate",
+			"aliases": [
+				"tttan",
+				"ttt-an",
+				"tttmutean",
+				"ttt-mute-an",
+				"ttton"
 			]
 		}
 		
